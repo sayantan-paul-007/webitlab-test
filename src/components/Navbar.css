@@ -1,0 +1,131 @@
+.navbar{
+    background-color: #00FF00;
+    width: 100%;
+    height: max-content;
+    padding: 38px 100px;
+    padding-bottom: 0px;
+   
+}
+.nav-container{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.nav-left{
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 100%;
+    padding-right: 25px;
+}
+.logo-font{
+    
+    font-size: 28px;
+}
+.sub{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 10px;
+}
+.nav-center{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 28px;
+}
+.nav-links{
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.nav-right{
+    display: flex;
+    gap: 8.5px;
+}
+.btn{
+    height: 35px;
+    width: 156px;
+    font-size: 13px ;
+    border-radius: 23.5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 20px #00000029;
+    background-color: white;
+}
+.call{
+    background-color: black;
+    color: white;
+}
+.ham-icon{
+    font-size: 50px;
+    display: none;
+    
+}
+.ham-menu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width:85%;
+    padding: 30px 100px;
+    background-color: black !important;
+    z-index: 100;
+    right: -85% !important; 
+}
+
+.ham-nav-links{
+    color: white;
+    font-size: 25px;
+    border-bottom: 2px solid #00ff0099 ;
+    padding: 35px;
+    text-align: center;
+}
+
+.ham-btn{
+    height: 50px;
+    width: 156px;
+    font-size: 15px ;
+    border-radius: 23.5px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.close{
+    color: #fff;
+     font-size: 40px;
+     margin: 30px 0;
+}
+.close-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ham-btn-container{
+    width: 100%;
+    gap: 20px;
+    padding-top: 30px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ham-btn-call{
+    height: 50px;
+    width: 156px;
+    font-size: 15px ;
+    font-weight: 400;
+    border-radius: 23.5px;
+    border: none;
+    outline: none;
+    background-color: #00FF00;
+}
+.ham-show{
+    right: 0% !important;
+    transition: 0.4s ease-in-out !important;
+    
+}
+.ham-hide{
+    right: -85% !important;
+    transition: 0.4s ease-in-out !important;
+}

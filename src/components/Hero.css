@@ -1,0 +1,22 @@
+.hero{ 
+   height: 108vh;
+   background-image: url('../images/hero-image-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-head{
+    width: 900px;
+    font-size: 75px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.hero-sub-head{
+    font: 28.5px;
+    font-weight: bold;
+}
+.text-container{
+    height: 100%;
+   display: grid;
+   place-items: center;
+}
